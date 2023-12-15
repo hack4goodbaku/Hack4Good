@@ -407,6 +407,9 @@ body{
 }
 
 @media screen and (max-width: 910px){
+    .eventimg{
+        width: 100%;
+    }
     .eventimgdiv{
         width: 100%;
     }
