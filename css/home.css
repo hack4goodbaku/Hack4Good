@@ -136,7 +136,7 @@ body{
     padding-bottom: 40px;
 
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     color: #18275d;
 }
@@ -448,5 +448,21 @@ body{
     .heading .small{
         display: block;
         font-size: 30px;
+    }
+    .aboutustitle{
+        text-align: center;
+        font-size: 40px;
+        padding: 40px 5vw;
+        color: #18275d;
+        color: transparent;
+        -webkit-text-stroke: 3px #18275d;
+    }
+    .what{
+        display: block;
+        padding: 0 8vw;
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 10px;
+        color: #18275d;
     }
 }
