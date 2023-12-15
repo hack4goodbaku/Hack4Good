@@ -438,4 +438,15 @@ body{
     .descriptionmob{
         display: block;
     }
+    .heading{
+        color: #fff;
+        font-size: 60px;
+        line-height: 40px;
+        margin-bottom: 80px;
+    }
+
+    .heading .small{
+        display: block;
+        font-size: 30px;
+    }
 }
