@@ -109,7 +109,7 @@ body{
 .aboutus{
     background-color: rgba(216, 225, 236, 0.85);
     margin-top: 50px;
-    height: 115vh;
+
 }
 
 .what{
@@ -123,7 +123,7 @@ body{
 
 .aboutustitle{
     text-align: center;
-    font-size: 50px;
+    font-size: 4rem;
     padding: 40px 5vw;
     color: #18275d;
     color: transparent;
@@ -136,7 +136,7 @@ body{
     padding-bottom: 40px;
 
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     color: #18275d;
 }
@@ -220,10 +220,23 @@ body{
 
 .eventimg{
     border-radius: 30px;
-    height: 280px;
     width: 450px;
+    height: 280px;
     border: 3px solid white; 
 }
+
+.eventimgdiv{
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
 
 .linky{
     text-decoration: none;
@@ -319,24 +332,44 @@ body{
 }
 
 .slideshow-container {
-  display: block;
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    display: block;
+    height: 432px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .mySlides {
   display: none;
 }
 
-.prev, .next {
+.prev{
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 52.5%;
+  padding-right: 1025px;
   width: auto;
   margin-top: -22px;
-  padding: 7px;
-  color: #fff;
+  color: #18275d;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 0 2px 2px 0;
+  user-select: none;   
+}
+
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 52.5%;
+  padding-left: 1025px;
+  width: auto;
+  margin-top: -22px;
+  color: #18275d;
   font-weight: bold;
   font-size: 18px;
   transition: 0.3s ease;
@@ -345,7 +378,6 @@ body{
 }
 
 .next {
-  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -382,6 +414,34 @@ body{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+@media screen and (max-width: 1050px){
+    .memb{
+        display: none;
+    }
+    .slideshow-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 910px){
+    .eventimg{
+        width: 100%;
+        height: auto;
+    }
+    .eventimgdiv{
+        width: 100%;
+    }
+    .event{
+        flex-direction: column;
+        text-align: center;
+    }
+    .eventright{
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 600px){
@@ -429,13 +489,29 @@ body{
     .copyrightmob{
         display: block;
     }
-    .aboutus{
-        height: 63vh;
-    }
+
     .description{
         display: none;
     }
     .descriptionmob{
         display: block;
     }
+    .heading{
+        font-size: 60px;
+        line-height: 40px;
+    }
+
+    .heading .small{
+        font-size: 30px;
+    }
+    .ourevents{
+        font-size: 50px;
+    }
+    .aboutustitle{
+        font-size: 50px;
+    }
+    .what{
+        font-size: 28px;
+    }
+
 }

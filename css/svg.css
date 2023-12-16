@@ -1,0 +1,592 @@
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  width: 1000px;
+  height: 3624px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1000px;
+  height: 432px;
+  margin: 0 0 0 0;
+  background: #051527;
+  border-radius: 36px;
+}
+.path {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 0.3%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.photo {
+  position: relative;
+  width: 389.299px;
+  height: 382px;
+  margin: 25px 0 0 22px;
+  background: url(./assets/images/Aydan_Pic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+  border-radius: 24px;
+}
+.path-1 {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 42.7%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.subtract {
+  position: absolute;
+  width: 149px;
+  height: 431.08px;
+  top: 0.92px;
+  left: 851px;
+  background: url(./assets/images/Side_Pattern.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.vector {
+  position: absolute;
+  width: 48.06%;
+  height: 13.21%;
+  top: 38.89%;
+  left: 46.7%;
+  background: url(./assets/images/Aydan_Name.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+.vector-2 {
+  position: absolute;
+  width: 31.33%;
+  height: 8.99%;
+  top: 53.24%;
+  left: 55%;
+  background: url(./assets/images/Head_Organizer.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 6;
+}
+.rectangle-3 {
+  position: relative;
+  width: 1000px;
+  height: 432px;
+  background: #051527;
+  z-index: 7;
+  border-radius: 36px;
+}
+.path-4 {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 0.3%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 8;
+}
+.photo-5 {
+  position: relative;
+  width: 389.299px;
+  height: 382px;
+  margin: 25px 0 0 22px;
+  background: url(./assets/images/Nikolay_Pic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+  border-radius: 24px;
+}
+.path-6 {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 42.7%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 9;
+}
+.subtract-7 {
+  position: absolute;
+  width: 149px;
+  height: 431.08px;
+  top: 0.92px;
+  left: 851px;
+  background: url(./assets/images/Side_Pattern.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+
+
+.vector-8 {
+  position: absolute;
+  width: 520px;
+  height: 13.19%;
+  top: 38.89%;
+  left: 50%;
+  background: url(./assets/images/Nikolay_Name.svg)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-10.19%, 0);
+  z-index: 14;
+}
+.vector-9 {
+  position: relative;
+  width: 480.645px;
+  height: 57.07px;
+  margin: 0 0 0 20px;
+  background: url(./assets/images/Aydan_Name.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 12;
+  overflow: visible auto;
+}
+
+.vector-b {
+  position: absolute;
+  width: 33.08%;
+  height: 8.95%;
+  top: 53.24%;
+  left: 54.2%;
+  background: url(./assets/images/Project_Manager.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 15;
+}
+.rectangle-c {
+  position: relative;
+  width: 1000px;
+  height: 432px;
+  background: #051527;
+  z-index: 16;
+  border-radius: 36px;
+}
+.path-d {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 0.3%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 17;
+}
+.photo-e {
+  position: relative;
+  width: 389.299px;
+  height: 382px;
+  margin: 25px 0 0 22px;
+  background: url(./assets/images/Faig_Pic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+  border-radius: 24px;
+}
+.path-f {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 42.7%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 18;
+}
+.subtract-10 {
+  position: absolute;
+  width: 149px;
+  height: 431.08px;
+  top: 0.92px;
+  left: 851px;
+  background: url(./assets/images/Side_Pattern.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.vector-11 {
+  position: absolute;
+  width: 358px;
+  height: 13.43%;
+  top: 38.89%;
+  left: 50%;
+  background: url(./assets/images/Faig_Name.svg)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(7.82%, 0);
+  z-index: 21;
+}
+.vector-12 {
+  position: absolute;
+  width: 39.76%;
+  height: 7.04%;
+  top: 53.94%;
+  left: 50.8%;
+  background: url(./assets/images/Founder&President.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 22;
+}
+.rectangle-13 {
+  position: relative;
+  width: 1000px;
+  height: 432px;
+  background: #051527;
+  z-index: 23;
+  border-radius: 36px;
+}
+.path-14 {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 0.3%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 24;
+}
+.photo-15 {
+  position: relative;
+  width: 389.299px;
+  height: 382px;
+  margin: 25px 0 0 22px;
+  background: url(./assets/images/Eyvazli_Pic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 26;
+  border-radius: 24px;
+}
+.path-16 {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 42.7%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 25;
+}
+.vector-17 {
+  position: relative;
+  width: 86.601px;
+  height: 28.496px;
+  margin: 235px 0 0 237px;
+  background: url(./assets/images/Host.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 29;
+}
+.subtract-18 {
+  position: absolute;
+  width: 149px;
+  height: 431.08px;
+  top: 0.92px;
+  left: 851px;
+  background: url(./assets/images/Side_Pattern.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+}
+.vector-19 {
+  position: absolute;
+  width: 41.01%;
+  height: 13.27%;
+  top: 38.89%;
+  left: 50.2%;
+  background: url(./assets/images/Eyvazli_Name.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 28;
+}
+.rectangle-1a {
+  position: relative;
+  width: 1000px;
+  height: 432px;
+  background: #051527;
+  z-index: 30;
+  border-radius: 36px;
+}
+.path-1b {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 0.3%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 31;
+}
+.photo-1c {
+  position: relative;
+  width: 389.299px;
+  height: 382px;
+  margin: 25px 0 0 22px;
+  background: url(./assets/images/Baghirli_Pic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 33;
+  border-radius: 24px;
+}
+.path-1d {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 42.7%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 32;
+}
+.vector-1e {
+  position: relative;
+  width: 239.941px;
+  height: 38.654px;
+  margin: 235px 0 0 160px;
+  background: url(./assets/images/Design_Lead.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 37;
+}
+.svg {
+  position: relative;
+  width: 240px;
+  height: 38.667px;
+  margin: 2.346px 0 0 51px;
+  z-index: 36;
+  overflow: hidden;
+}
+.subtract-1f {
+  position: absolute;
+  width: 149px;
+  height: 431.08px;
+  top: 0.92px;
+  left: 851px;
+  background: url(./assets/images/Side_Pattern.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 34;
+}
+.vector-20 {
+  position: absolute;
+  width: 43.01%;
+  height: 13.27%;
+  top: 38.89%;
+  left: 49.2%;
+  background: url(./assets/images/Murad_Name.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 35;
+}
+.rectangle-21 {
+  position: relative;
+  width: 1000px;
+  height: 432px;
+  background: #051527;
+  z-index: 38;
+  border-radius: 36px;
+}
+.path-22 {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 0.3%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 39;
+}
+.photo-23 {
+  position: relative;
+  width: 389.299px;
+  height: 382px;
+  margin: 25px 0 0 22px;
+  background: url(./assets/images/Yusuf_Pic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 41;
+  border-radius: 24px;
+}
+.path-24 {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 42.7%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 40;
+}
+.svg-25 {
+  position: relative;
+  width: 240px;
+  height: 38.667px;
+  margin: 276px 0 0 51px;
+  z-index: 43;
+  overflow: hidden;
+}
+.subtract-26 {
+  position: absolute;
+  width: 149px;
+  height: 431.08px;
+  top: 0.92px;
+  left: 851px;
+  background: url(./assets/images/Side_Pattern.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 42;
+}
+.vector-27 {
+  position: absolute;
+  width: 387.686px;
+  height: 10.53%;
+  top: 38.89%;
+  left: 50%;
+  background: url(./assets/images/Yusuf_Name.svg)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(3.35%, 0);
+  z-index: 45;
+}
+.vector-28 {
+  position: absolute;
+  width: 51.95%;
+  height: 6.99%;
+  top: 54.63%;
+  left: 44.7%;
+  background: url(./assets/images/Head_Of_Human_Resources.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 44;
+}
+.rectangle-29 {
+  position: relative;
+  width: 1000px;
+  height: 432px;
+  background: #051527;
+  z-index: 46;
+  border-radius: 36px;
+}
+.path-2a {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 0.3%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 47;
+}
+.photo-2b {
+  position: relative;
+  width: 389.299px;
+  height: 382px;
+  margin: 25px 0 0 22px;
+  background: url(./assets/images/Deniz_Pic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 49;
+  border-radius: 24px;
+}
+.path-2c {
+  position: absolute;
+  width: 42.4%;
+  height: 100%;
+  top: 0;
+  left: 42.7%;
+  background: url(./assets/images/Center_Pattern.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 48;
+}
+.vector-2d {
+  position: relative;
+  width: 86.601px;
+  height: 28.496px;
+  margin: 248px 0 0 237px;
+  background: url(./assets/images/Host.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 52;
+}
+.svg-2e {
+  position: relative;
+  width: 240px;
+  height: 38.667px;
+  margin: -0.5px 0 0 51px;
+  z-index: 51;
+  overflow: hidden;
+}
+.svg-2f {
+  position: absolute;
+  width: 160px;
+  height: 46.667px;
+  top: 117px;
+  left: 196px;
+  z-index: 54;
+  overflow: hidden;
+}
+.vector-30 {
+  position: absolute;
+  width: 37.69%;
+  height: 10.53%;
+  top: 30.32%;
+  left: 46.23%;
+  background: url(./assets/images/Deniz_First_Name.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 55;
+}
+.subtract-31 {
+  position: absolute;
+  width: 149px;
+  height: 431.08px;
+  top: 0.92px;
+  left: 851px;
+  background: url(./assets/images/Side_Pattern.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 50;
+}
+.vector-32 {
+  position: absolute;
+  width: 45.99%;
+  height: 10.34%;
+  top: 42.36%;
+  left: 47.7%;
+  background: url(./assets/images/Deniz_Last_Name.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 53;
+}
