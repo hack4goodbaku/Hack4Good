@@ -197,7 +197,9 @@ body{
 }
 
 .asd{
-    display: none;
+    display: block;
+    width: 1px;
+    height:1px
     background: url(../img/murad_suleymanli_gay.png);
 }
 
