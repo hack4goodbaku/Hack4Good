@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     background: url(../img/Frame2.png);
     background-size: 100%;
@@ -193,6 +194,11 @@ body{
     text-align: right;
     flex-direction: row-reverse;
     font-family: 'Scandia-Regular', sans-serif;
+}
+
+.asd{
+    display: none;
+    background: url(../img/murad_suleymanli_gay.png);
 }
 
 .eventdescription{
